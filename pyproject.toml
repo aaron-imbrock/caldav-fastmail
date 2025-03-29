@@ -1,4 +1,5 @@
 [project]
+classifiers = ["Private :: Do Not Upload"]
 name = "caldav-fastmail"
 version = "0.1.0"
 description = "Add your description here"
