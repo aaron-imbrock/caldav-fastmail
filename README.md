@@ -25,11 +25,13 @@ source .venv/bin/activate
 ##### Run
 
 1. Go to Fastmail.com to get a CalDav URL for ANY existing calendar. The CalDav URLs can be found under Settings → Calendars, and click the Export link for any calendar. A small pop-up will appear with the URL.
-2. Paste this value into the `.env CALDAV_URL` field. This existing calendar will not be changed in any way.
-3. Separately create a new app password - make it for "CalDav" access - and paste this value into the `.env CALDAV_PASS` field.
-4. The `.env CALDAV_USER` value is your Fastmail user name. This is usually the same as your email address.
-5. The `.env CALENDAR_NAME` is whatever you want the calendar title to be. I called it 'FASTMAIL/MAIN'. In `env_sample` it's called 'TODO'. The additional properties assigned will allow both tasks and events in a single calendar, that's ideal although I haven't fully explored this. For now, this calendar is just for tasks.
-5. Run `uv run main.py` 6. The new calendar will be listed, and iOS will automatically list this calendar under `Reminders`.
+1. Paste this value into the `.env CALDAV_URL` field. This existing calendar will not be changed in any way.
+1. Separately create a new app password - make it for "CalDav" access - and paste this value into the `.env CALDAV_PASS` field.
+1. The `.env CALDAV_USER` value is your Fastmail user name. This is usually the same as your email address.
+1. The `.env CALENDAR_NAME` is whatever you want the calendar title to be. I called it 'FASTMAIL/MAIN'. In `env_sample` it's called 'TODO'. The additional properties assigned will allow both tasks and events in a single calendar, that's ideal although I haven't fully explored this. For now, this calendar is just for tasks.
+1. Run `uv run main.py`. The new calendar will be added on the webpage, and iOS will automatically list this calendar under `Reminders`.
+
+I think that's cool.
 
 ##### Outcomes
 
