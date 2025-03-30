@@ -1,11 +1,12 @@
 [project]
 classifiers = ["Private :: Do Not Upload"]
 name = "caldav-fastmail"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.4.0"
+description = "Create a Fastmail hosted Task list"
+author = "Aaron Imbrock"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = [
-    "caldav>=1.4.0",
-    "python-dotenv>=1.1.0",
+    "caldav==1.4.0",
+    "python-dotenv==1.1.0",
 ]
