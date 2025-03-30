@@ -1,4 +1,4 @@
-Fastmail does not include a dedicated task management tool with their service. Fortunately, tasks are simply CalDAV calendar entries with additional fields. Since Fastmail uses CalDAV under the hood, this project enables you to create a fully compatible task management solution that works across Android, Apple, and Windows devices.
+Fastmail does not include a dedicated task management tool with their service. Fortunately, the CalDAV protocol (which Fastmail uses) supports tasks through the VTODO component of the iCalendar format. This project leverages Fastmail's CalDAV implementation to create a task management solution that works seamlessly across Android, Apple, and Windows devices.
 
 ##### Project Prereqs
 
