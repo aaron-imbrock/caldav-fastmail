@@ -1,6 +1,6 @@
 #### Why
 
-With this tool, you can create a task list utilizing your existing Fastmail account, ensuring your to-dos stay synchronized everywhere while maintaining your privacy. Setup takes less than five minutes.
+With a little python and your existing Fastmail account, you can self-host a task list compatible with all major platforms, seamlessly ensuring your to-dos stay synchronized everywhere. Setup takes less than five minutes.
 
 Fastmail does not include a dedicated task management tool with their service. Fortunately, the CalDAV protocol (which Fastmail uses) supports tasks through the VTODO component of the iCalendar format. This project leverages Fastmail's CalDAV implementation to create a task management solution that works seamlessly across Android, Apple, and Windows devices. Any tool that supports CalDAV will work.
 
