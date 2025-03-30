@@ -1,10 +1,10 @@
-#### Project Why
+#### Why
 
 Stop juggling multiple task apps across your devices. With this tool, you can manage your tasks directly through your existing Fastmail account, ensuring your to-dos stay synchronized everywhere while maintaining your privacy. Setup takes less than five minutes.
 
 Fastmail does not include a dedicated task management tool with their service. Fortunately, the CalDAV protocol (which Fastmail uses) supports tasks through the VTODO component of the iCalendar format. This project leverages Fastmail's CalDAV implementation to create a task management solution that works seamlessly across Android, Apple, and Windows devices. Any tool that supports CalDAV will work.
 
-##### Project Prereqs
+##### Prereqs
 
 If necessary first install `uv`.
 
@@ -12,7 +12,7 @@ If necessary first install `uv`.
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-##### Project Setup
+##### Setup
 
 ```
 git clone git@github.com:aaron-imbrock/caldav-fastmail.git
@@ -22,7 +22,7 @@ uv sync
 source .venv/bin/activate
 ```
 
-##### Project Run
+##### Run
 
 1. Go to Fastmail.com to get a CalDav URL for ANY existing calendar. The CalDav URLs can be found under Settings → Calendars, and click the Export link for any calendar. A small pop-up will appear with the URL.
 2. Paste this value into the `.env CALDAV_URL` field. This existing calendar will not be changed in any way.
