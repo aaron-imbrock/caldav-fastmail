@@ -5,6 +5,7 @@
 ```
 git clone git@github.com:aaron-imbrock/caldav-fastmail.git
 cd caldav-fastmail
+cp env_example .env
 uv sync
 source .venv/bin/activate
 ```
