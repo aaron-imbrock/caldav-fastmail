@@ -33,4 +33,5 @@ source .venv/bin/activate
 
 ##### Outcomes
 
+![Screenshot of fastmail settings](images/fastmail.png)
 ![Screenshot of Task on iphone](images/iphone.png)
