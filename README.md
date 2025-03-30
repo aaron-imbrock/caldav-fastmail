@@ -1,6 +1,6 @@
 ### Documentation
 
-##### Prereqs
+##### Project Prereqs
 
 If necessary first install `uv`.
 
@@ -8,7 +8,7 @@ If necessary first install `uv`.
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-##### For the project:
+##### Project Setup
 
 ```
 git clone git@github.com:aaron-imbrock/caldav-fastmail.git
@@ -18,7 +18,7 @@ uv sync
 source .venv/bin/activate
 ```
 
-##### Run
+##### Project Run
 
 1. Go to Fastmail.com to get a CalDav URL for ANY existing calendar. The CalDav URLs can be found under Settings → Calendars, and click the Export link for any calendar. A small pop-up will appear with the URL.
 2. Paste this value into the `.env CALDAV_URL` field. This existing calendar will not be changed in any way.
