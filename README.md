@@ -6,13 +6,13 @@ Interestingly enough though, your iPhone Tasks app is also a calendar. How is th
 
 The magic word is CalDAV. It's a boring and stable technology, used everywhere and in unexpected ways, but rarely mentioned. 
 
-Fastmail uses CalDAV and, crazily enough, so is Apple Tasks. 
+Fastmail uses CalDAV. And in the same way that iMessage is a fancy UI for a sqlite database, Apple Tasks is a frontend for ... yeah, saying it twice is enough. You get it.
 
 With a little Python, you can modify a Fastmail calendar to be both. You will have a calendar with a to-do list that your Apple product treats just like its own. 
 
-Just as importantly, this works on anything and everything else too. You're not tied to Mac/iPhone.
+Just as importantly, this works on anything and everything else too: you're not tied to Mac or iPhone.
 
-You'll see a calendar where you do Calendar things, and tasks where you do Tasks things. FastMail now offers Tasks.
+You'll end up with a calendar where you do Calendar things, and tasks where you do Tasks things. FastMail now offers Tasks.
 
 ##### Prereqs
 
