@@ -1,4 +1,4 @@
-#### But Why?
+#### Why would I do this?
 
 We all love Fastmail. Their product is fast and supports all email and calendar features I've ever wanted. Just not Tasks!
 
