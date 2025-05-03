@@ -14,6 +14,8 @@ Just as importantly, this calendar works on anything and everything else too: yo
 
 You'll end up with a calendar where you do Calendar things, and tasks where you do Tasks things. FastMail now offers Tasks.
 
+#### Ok, let's do this
+
 ##### Prereqs
 
 If necessary first install `uv`.
